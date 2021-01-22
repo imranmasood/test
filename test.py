@@ -26,4 +26,6 @@ for _ in range(3):
     time.sleep(1)
     ic('Hello')
 
+# for testing git revert commit 1
+# for testing git revert commit 2
 # for testing git revert commit 3
