@@ -14,9 +14,9 @@ def plus_five(num):
 
 def hello(user: bool):
     if user:
-        ic()
+        ic(user)
     else:
-        ic()
+        ic(user)
 
 
 ic.configureOutput(prefix=time_format, includeContext=True)
