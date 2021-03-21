@@ -1,18 +1,23 @@
-from icecream import ic
-from datetime import datetime
 import time
+from datetime import datetime
+
+from icecream import ic
+
 
 def time_format():
-    return f'{datetime.now()}|>'
+    return f"{datetime.now()}|>"
+
 
 def plus_five(num):
     return num + 5
+
 
 def hello(user: bool):
     if user:
         ic()
     else:
         ic()
+
 
 ic.configureOutput(prefix=time_format, includeContext=True)
 
@@ -24,7 +29,7 @@ hello(user=False)
 
 for _ in range(3):
     time.sleep(1)
-    ic('Hello')
+    ic("Hello")
 
 # for testing git revert commit 3
 # for testing git revert commit 4
