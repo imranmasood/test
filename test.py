@@ -30,4 +30,3 @@ hello(user=False)
 for _ in range(3):
     time.sleep(1)
     ic("Hello")
-
